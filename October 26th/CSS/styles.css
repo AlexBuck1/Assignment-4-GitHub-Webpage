@@ -1,23 +1,85 @@
+header{
+    background:
+}
+
 body {
     width: 80%;
-    background-color: rgb(124, 80, 80);
-    height: 1000px;
     margin: 0 auto;
+    margin-top: 10px;
+    padding: 5px;
     text-align: center;
+
+    /* Makes the box transparent and rounded */
+    background-color: rgb(43, 141, 172, 0.8);
+    border-radius: 25px;
 }
 
 html {
     width: 100%;
-    background-color: rgb(104, 37, 37);
     height: fit-content;
     margin: 0 auto;
+
+    /* BG set to 'cover' so bg image is stretched when window resized. */
+    background-image: url(/Images/pokedexbg.jpg);
+    background-size: cover;
 }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Pika gets his own class cause he's a big boi img. */
+.pika {
+    width: 20%;
+}
+
+/* BEGIN DIV BOX STYLES */
+/* Displays the style of the correspoding DIV. */
+.text{
+    margin: 0 auto;
+    padding: 5px;
+    width: 60%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 7px 5px 5px black;
+}
+
+.type {
+    background: rgb(255, 255, 255);
+}
+
+.traits {
+    background: rgb(53, 43, 43);
+    color: rgb(190, 76, 73);
+}
+
+.info {
+    background: rgb(238, 43, 36);
+    color: rgb(255, 255, 255);
+}
+/* END DIV BOX STYLES */
 
 .letters {
     color: rgb(55, 182, 77); 
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
 }
+
+footer {
+    margin: auto auto 0px auto;
+    width: 60%;
+    padding: 5px;
+    background: rgb(70, 182, 255);
+    border-radius: 25px 25px 5px 5px;
+    border-style: solid;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 7px 5px 5px black;
+}
+
 /* DESKTOP */
 @media all and (min-width:1200px) {
     div.wrapper {
