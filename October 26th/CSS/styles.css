@@ -1,0 +1,20 @@
+body {
+    width: 80%;
+    background-color: rgb(124, 80, 80);
+    height: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+html {
+    width: 100%;
+    background-color: rgb(104, 37, 37);
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.letters {
+    color: rgb(55, 182, 77); 
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
