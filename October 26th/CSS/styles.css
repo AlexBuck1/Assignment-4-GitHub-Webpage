@@ -20,7 +20,7 @@ html {
     margin: 0 auto;
 
     /* BG set to 'cover' so bg image is stretched when window resized. */
-    background-image: url(/Images/pokedexbg.jpg);
+    background-image: url(/Images/pokedexbg.jpeg);
     background-size: cover;
 }
 
